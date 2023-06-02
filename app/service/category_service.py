@@ -11,13 +11,13 @@ class Category:
                 category_data = json.load(file)
             return category_data
         except Exception as e:
-            raise Exception('Categorys not fetched')
+            raise Exception('Categories not fetched')
 
     def get_all_categories(self):
         try:
             return self.categories
         except Exception as e:
-            raise Exception('Categorys not fetched')
+            raise Exception('Categories not fetched')
 
     def get_category_by_id(self, id):
         try:
