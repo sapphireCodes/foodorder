@@ -4,27 +4,31 @@
         "email": "john@gmail.com",
         "username": "john35@d",
         "password": "johnd",
-        "fullname": "John Doe"
+        "fullname": "John Doe",
+        "isAdmin" : true
     },
     {
         "id": 2,
         "email": "morrison@gmail.com",
         "username": "mor_2314",
         "password": "morrd",
-        "fullname": "David Morrison"
+        "fullname": "David Morrison",
+        "isAdmin" : false
     },
     {
         "id": 3,
         "email": "kevin@gmail.com",
         "username": "kevinryan",
         "password": "kevinR",
-        "fullname": "Kevin Ryan"
+        "fullname": "Kevin Ryan",
+        "isAdmin" : false
     },
     {
         "id": 4,
         "email": "don@gmail.com",
         "username": "donero",
         "password": "donromer",
-        "fullname": "Don Romer"
+        "fullname": "Don Romer",
+        "isAdmin" : false
     }
 ]
